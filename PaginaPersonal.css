@@ -191,17 +191,14 @@ label {
 .enviar:active {
   background: rgb(109, 9, 202);
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 480px ) {
   .sobreMi{
     width: 95%;
-    left: 5%;
+    left: 5%
   }
   .abrir-menu{
     display: block;
   }
-  /* .navegacionPrin{
-    display: none;
-  }*/ 
   .navegacionPrin{
     opacity: 0;
     visibility: hidden;
