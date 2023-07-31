@@ -46,7 +46,7 @@ html {
   border-radius: 15px;
 }
 .sobreMiCon {
-  margin: 25px 0;
+  margin: 5% 0;
   position: absolute;
   width: 60%;
   display: inline-block;
@@ -105,7 +105,7 @@ h2 {
   position: relative;
   left: 15%;
   width: 70%;
-  top: 300px;
+  top: 330px;
 }
 .logo {
   width: 20%;
@@ -125,14 +125,14 @@ h2 {
   left: 15%;
   width: 70%;
   height: 150px;
-  top: 300px;
+  top: 315px;
 }
 .contacto {
   margin: 25px;
   position: relative;
   left: 15%;
   width: 70%;
-  top: 300px;
+  top: 315px;
 }
 .descarga {
   position: relative;
