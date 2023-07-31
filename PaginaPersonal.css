@@ -30,8 +30,8 @@ html {
   color: black;
 }
 .sobreMi {
-  left: 22.5%;
-  width: 55%;
+  left: 15%;
+  width: 70%;
   position: relative;
   top: 200px;
 }
@@ -64,10 +64,10 @@ html {
 }
 .portafolio {
   margin: 25px;
-  left: 22.5%;
-  width: 55%;
+  left: 15%;
+  width: 70%;
   position: relative;
-  top: 300px;
+  top: 330px;
 }
 h2 {
   margin: 15px;
@@ -103,8 +103,8 @@ h2 {
 }
 .Skills {
   position: relative;
-  left: 22.5%;
-  width: 55%;
+  left: 15%;
+  width: 70%;
   top: 300px;
 }
 .logo {
@@ -122,16 +122,16 @@ h2 {
 .curriculum {
   margin: 25px;
   position: relative;
-  left: 22.5%;
-  width: 55%;
+  left: 15%;
+  width: 70%;
   height: 150px;
   top: 300px;
 }
 .contacto {
   margin: 25px;
   position: relative;
-  left: 22.5%;
-  width: 55%;
+  left: 15%;
+  width: 70%;
   top: 300px;
 }
 .descarga {
