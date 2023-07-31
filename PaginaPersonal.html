@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Maynor Semeyá</title>
+    <link rel="Stylesheet" href="reset.css/reset.css" />
+    <link rel="Stylesheet" href="PaginaPersonal.css" />
+  </head>
+  <body>
+    <header class="navegacion1">
+      <div class="titulo">
+        <h1><img src="Md.png" /></h1>
+      </div>
+
+      <nav class="navegacionPrin">
+        <lu>
+          <a href="#sobreMi"><li class="navegacion">Sobre mí</li></a>
+          <a href="#contacto"><li class="navegacion">Contacto</li></a>
+          <a href="#portafolio"><li class="navegacion">Portafolio</li></a>
+          <a href="#skills"><li class="navegacion">Skills</li></a>
+          <a href="#curriculum"><li class="navegacion">Curriculum</li></a>
+        </lu>
+      </nav>
+    </header>
+    <section class="sobreMi" id="sobreMi">
+      <h2>Un poco sobre mi :D</h2>
+      <div class="sobreMiFoto">
+        <img
+          class="fotoMia"
+          src="b7e6cd25-3b86-48d4-b207-8228928cdfbb.jpeg"
+          alt="Mas o menos asi soy jaja"
+        />
+      </div>
+
+      <div class="sobreMiCon">
+        <p class="principal">Hola mi nombre es: Maynor Semeyá</p>
+        <p class="principal">Developer Full-Stack</p>
+        <p class="secundario">
+          "Soy un chico apasionado por la tecnología y la innovación."
+          <br /><br />
+          "Y una persona muy curiosa que le gusta resolver problemas, el
+          aprender es parte de mi día a día y lo que mas me motiva es encontrar
+          las mejores soluciones a los distintos desafíos."
+        </p>
+      </div>
+    </section>
+
+    <section class="portafolio" id="portafolio">
+      <h2>Un poco de mi trabajo :D</h2>
+      <div class="pro1">
+        <a
+          target="_blank"
+          href="https://maynor06.github.io/encriptadorDeTexto/Encriptador.html"
+          ><img src="proyectos/encriptador.png" alt="mi primer proyecto"
+        /></a> 
+      </div>
+      <p class="descriptionPro1" >Este proyecto fue realizado a base de html, css y javascript, lo que se busca con es encriptar mensajes y desencriptarlos tambien.</p>
+      <div class="pro2">
+        <a
+          href="https://github.com/Maynor06/Convertidor-de-Monedas"
+          target="_blank"
+          ><img
+            src="proyectos/convertidor de moneda.png"
+            alt="mi segundo proyecto"
+        /></a>
+      </div>
+      
+      <p class="descriptionPro2">Este proyecto fue realizado a base de java 100 por ciento, donde creamos una aplicacion que nos hace la conversion de monedas y tambien de temperatura. </p>
+    </section>
+
+    <section class="Skills" id="skills">
+      <h2>Skills</h2>
+      <div class="logoSkills">
+        <lu>
+          <li class="logo"><img src="skills/html.jpg" alt="html" /></li>
+          <li class="logo"><img src="skills/css.jpg" alt="css" /></li>
+          <li class="logo">
+            <img src="skills/javascript1.jpg" alt="Javascript" />
+          </li>
+          <li class="logo">
+            <img src="skills/java.jpeg" alt="Javascript" />
+          </li>
+          <li class="logo"><img src="skills/react.jpg" alt="react" /></li>
+        </lu>
+      </div>
+    </section>
+    <section class="contacto" id="contacto">
+      <form action="https://formsubmit.co/dmaynor488@gmail.com" method="POST"  class="comFormulario">
+        <h2>Contactame</h2>
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre" class="formulario" name="Nombre" required/>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" class="formulario" required/>
+        <label for="Asunto" >Asunto</label>
+        <textarea class="formulario"
+          id="Asunto" required
+          cols="30"
+          rows="10" name="asunto"
+        ></textarea>
+        <button class="enviar">Enviar</button>
+        <input type="hidden" name="_next" value="">
+        </form>
+    </section>
+    
+    <section class="curriculum" id="curriculum">
+      <h2>Curriculum</h2>
+      <a href="13 DPI de Maynor David Semeyá Curruchiche.pdf" download="Maynor David"><button class="descarga" download="">Descargar aquí</button></a>
+      
+    </section>
+  </body>
+</html>

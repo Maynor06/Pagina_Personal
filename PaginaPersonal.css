@@ -1,0 +1,198 @@
+body {
+  background-color: #f8f2f2;
+}
+html {
+  scroll-behavior: smooth;
+}
+.titulo {
+  position: relative;
+  width: 30%;
+  display: inline-block;
+}
+.titulo img {
+  width: 30%;
+  position: absolute;
+  top: 1em;
+  left: 2em;
+}
+.navegacionPrin {
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  top: 4em;
+}
+.navegacion {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 2em;
+  text-decoration: none;
+  color: black;
+}
+.sobreMi {
+  left: 22.5%;
+  width: 55%;
+  position: relative;
+  top: 200px;
+}
+.sobreMiFoto {
+  width: 40%;
+  display: inline-block;
+  margin-top: 5%;
+}
+.fotoMia {
+  position: relative;
+  width: 80%;
+  border-radius: 15px;
+}
+.sobreMiCon {
+  margin: 25px 0;
+  position: absolute;
+  width: 60%;
+  display: inline-block;
+}
+.principal {
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.secundario {
+    margin: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.portafolio {
+  margin: 25px;
+  left: 22.5%;
+  width: 55%;
+  position: relative;
+  top: 300px;
+}
+h2 {
+  margin: 15px;
+  font-size: 40px;
+  text-align: center;
+}
+.pro1,
+.pro2 {
+  border: 2px solid black;
+  margin: 40px;
+  border-radius: 25px;
+  width: 40%;
+}
+.pro1 img,
+.pro2 img {
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.descriptionPro1 {
+  font-size: 18px;
+  position: absolute;
+  left: 60%;
+  top: 25%;
+}
+.descriptionPro2 {
+  font-size: 18px;
+  position: absolute;
+  left: 60%;
+  top: 65%;
+}
+.Skills {
+  position: relative;
+  left: 22.5%;
+  width: 55%;
+  top: 300px;
+}
+.logo {
+  width: 20%;
+  display: inline-block;
+  margin: 2%;
+}
+.logo img {
+  width: 85%;
+  margin: 25px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.curriculum {
+  margin: 25px;
+  position: relative;
+  left: 22.5%;
+  width: 55%;
+  height: 150px;
+  top: 300px;
+}
+.contacto {
+  margin: 25px;
+  position: relative;
+  left: 22.5%;
+  width: 55%;
+  top: 300px;
+}
+.descarga {
+  position: relative;
+  left: 12%;
+  width: 75%;
+  height: 67px;
+  border-radius: 25px;
+  background: rgb(27, 218, 27);
+  font-size: 22px;
+}
+.descarga {
+  background: rgb(143, 242, 242);
+}
+.descarga:hover,
+.pro1:hover,
+.pro2:hover,
+.enviar:hover,
+.navegacion:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.comFormulario {
+  margin: 20px;
+  padding: 30px;
+  background: white;
+  width: 90%;
+  border-radius: 20px;
+}
+.formulario {
+  width: 75%;
+  margin: 20px;
+  height: 50px;
+  display: flex;
+  border: none;
+  border-bottom: 3px solid #202020;
+  font-size: 25px;
+}
+.formulario:active,
+.formulario:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #202020;
+}
+label {
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  left: 15px;
+  position: relative;
+}
+.enviar {
+  position: relative;
+  width: 25%;
+  height: 60px;
+  border-radius: 20px;
+  margin: 10px;
+  left: 15px;
+  background: black;
+  color: #f8f2f2;
+  font-size: 18px;
+}
+.enviar:active {
+  background: rgb(109, 9, 202);
+}
