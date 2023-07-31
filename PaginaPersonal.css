@@ -29,7 +29,7 @@ header{
   left: 15%;
   width: 70%;
   position: relative;
-  top: 200px;
+  top: 150px;
 }
 .sobreMiFoto {
   width: 40%;
@@ -63,7 +63,7 @@ header{
   left: 15%;
   width: 70%;
   position: relative;
-  top: 330px;
+  top: 300px;
 }
 h2 {
   margin: 15px;
@@ -153,7 +153,8 @@ h2 {
   margin: 20px;
   padding: 30px;
   background: white;
-  width: 90%;
+  width: 85%;
+  left: 0px;
   border-radius: 20px;
 }
 .formulario {
@@ -191,13 +192,27 @@ label {
 .enviar:active {
   background: rgb(109, 9, 202);
 }
-@media screen and (max-width: 480px ) {
-  .sobreMi{
+@media screen and (max-width: 650px ) {
+  .sobreMi, .portafolio,
+  .Skills, .contacto, .curriculum{
     width: 95%;
     left: 5%
   }
-  .abrir-menu{
+  .portafolio, .skills,
+  .contacto, .curriculum{
+    top: 350px;
+  }
+  .abrir-menu,.cerrar-menu{
     display: block;
+    border: 0;
+    font-size: 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .abrir-menu{
+    color: #1c1c1c;
+  }.cerrar-menu{
+    color: #ececec;
   }
   .navegacionPrin{
     opacity: 0;
@@ -223,5 +238,6 @@ label {
     flex-direction: column;
     align-items: end;
   }
+  
 
 }
