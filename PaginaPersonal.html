@@ -7,13 +7,12 @@
     <link rel="Stylesheet" href="PaginaPersonal.css" />
   </head>
   <body>
-    <header class="navegacion1">
-      <div class="titulo">
-        <h1><img src="Md.png" /></h1>
-      </div>
-
-      <nav class="navegacionPrin">
-        <lu>
+    <header class="navegacion">
+      <img src="Md.png" class="logo" />
+      <button class="abrir-menu" id="abrir" >Abrir</button>
+      <nav class="navegacionPrin" id="navegacionPrin">
+        <button class="cerrar-menu" id="cerrar" >cerrar</button>
+        <lu class="nav">
           <a href="#sobreMi"><li class="navegacion">Sobre mí</li></a>
           <a href="#contacto"><li class="navegacion">Contacto</li></a>
           <a href="#portafolio"><li class="navegacion">Portafolio</li></a>
@@ -52,9 +51,12 @@
           target="_blank"
           href="https://maynor06.github.io/encriptadorDeTexto/Encriptador.html"
           ><img src="proyectos/encriptador.png" alt="mi primer proyecto"
-        /></a> 
+        /></a>
       </div>
-      <p class="descriptionPro1" >Este proyecto fue realizado a base de html, css y javascript, lo que se busca con es encriptar mensajes y desencriptarlos tambien.</p>
+      <p class="descriptionPro1">
+        Este proyecto fue realizado a base de html, css y javascript, lo que se
+        busca con es encriptar mensajes y desencriptarlos tambien.
+      </p>
       <div class="pro2">
         <a
           href="https://github.com/Maynor06/Convertidor-de-Monedas"
@@ -64,8 +66,12 @@
             alt="mi segundo proyecto"
         /></a>
       </div>
-      
-      <p class="descriptionPro2">Este proyecto fue realizado a base de java 100 por ciento, donde creamos una aplicacion que nos hace la conversion de monedas y tambien de temperatura. </p>
+
+      <p class="descriptionPro2">
+        Este proyecto fue realizado a base de java 100 por ciento, donde creamos
+        una aplicacion que nos hace la conversion de monedas y tambien de
+        temperatura.
+      </p>
     </section>
 
     <section class="Skills" id="skills">
@@ -85,27 +91,50 @@
       </div>
     </section>
     <section class="contacto" id="contacto">
-      <form action="https://formsubmit.co/dmaynor488@gmail.com" method="POST"  class="comFormulario">
+      <form
+        action="https://formsubmit.co/dmaynor488@gmail.com"
+        method="POST"
+        class="comFormulario"
+      >
         <h2>Contactame</h2>
         <label for="Nombre">Nombre</label>
-        <input type="text" id="Nombre" class="formulario" name="Nombre" required/>
+        <input
+          type="text"
+          id="Nombre"
+          class="formulario"
+          name="Nombre"
+          required
+        />
         <label for="email">email</label>
-        <input type="email" name="email" id="email" class="formulario" required/>
-        <label for="Asunto" >Asunto</label>
-        <textarea class="formulario"
-          id="Asunto" required
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="formulario"
+          required
+        />
+        <label for="Asunto">Asunto</label>
+        <textarea
+          class="formulario"
+          id="Asunto"
+          required
           cols="30"
-          rows="10" name="asunto"
+          rows="10"
+          name="asunto"
         ></textarea>
         <button class="enviar">Enviar</button>
-        <input type="hidden" name="_next" value="">
-        </form>
+        <input type="hidden" name="_next" value="" />
+      </form>
     </section>
-    
+
     <section class="curriculum" id="curriculum">
       <h2>Curriculum</h2>
-      <a href="13 DPI de Maynor David Semeyá Curruchiche.pdf" download="Maynor David"><button class="descarga" download="">Descargar aquí</button></a>
-      
+      <a
+        href="13 DPI de Maynor David Semeyá Curruchiche.pdf"
+        download="Maynor David"
+        ><button class="descarga" download="">Descargar aquí</button></a
+      >
     </section>
   </body>
+  <script src="PaginaPersonal.js"></script>
 </html>
