@@ -54,7 +54,7 @@ header{
   font-weight: bold;
 }
 .secundario {
-    margin: 10px;
+  margin: 10px;
   text-align: center;
   font-size: 18px;
 }
@@ -64,38 +64,34 @@ header{
   width: 70%;
   position: relative;
   top: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}.portafolio h2{
+  width: 80%;
 }
 h2 {
   margin: 15px;
   font-size: 40px;
   text-align: center;
 }
-.pro1,
-.pro2 {
+.pro {
+  list-style-type: none;
   border: 2px solid black;
-  margin: 40px;
+  margin: 3%;
   border-radius: 25px;
   width: 40%;
-}
-.pro1 img,
-.pro2 img {
-  padding: 10px;
+  font-size: 22px;
+  font-weight: 500;
   text-align: center;
+}.logoPortafolio{
+  cursor: pointer;
+}
+.logoPrincipal img{
+  padding: 10px;
   width: 80%;
-  position: relative;
-  left: 10%;
-}
-.descriptionPro1 {
-  font-size: 18px;
-  position: absolute;
-  left: 60%;
-  top: 25%;
-}
-.descriptionPro2 {
-  font-size: 18px;
-  position: absolute;
-  left: 60%;
-  top: 65%;
+}.logoPortafolio img{
+  width: 10%;
 }
 .Skills {
   position: relative;
@@ -136,15 +132,10 @@ h2 {
   width: 75%;
   height: 67px;
   border-radius: 25px;
-  background: rgb(27, 218, 27);
+  background: rgb(143, 242, 242);
   font-size: 22px;
 }
-.descarga {
-  background: rgb(143, 242, 242);
-}
 .descarga:hover,
-.pro1:hover,
-.pro2:hover,
 .enviar:hover {
   transform: scale(1.1);
   cursor: pointer;
@@ -154,11 +145,10 @@ h2 {
   padding: 30px;
   background: white;
   width: 85%;
-  left: 0px;
   border-radius: 20px;
 }
 .formulario {
-  width: 75%;
+  width: 95%;
   margin: 20px;
   height: 50px;
   display: flex;
@@ -197,10 +187,21 @@ label {
   .Skills, .contacto, .curriculum{
     width: 95%;
     left: 5%
-  }
-  .portafolio, .skills,
+  }.sobreMiFoto{
+    width: 95%;
+    text-align: center;
+  }.sobreMiCon{
+    position: relative;
+    width: 100%;
+  }.sobreMi,
+  .portafolio, .Skills,
   .contacto, .curriculum{
-    top: 350px;
+    top: auto;
+
+  }.pro, .logo{
+    width: auto;
+  }.portafolio, .contacto, .curriculum{
+    margin: 0;
   }
   .abrir-menu,.cerrar-menu{
     display: block;
@@ -238,6 +239,8 @@ label {
     flex-direction: column;
     align-items: end;
   }
-  
+  .comFormulario{
+    width: auto;
+  }
 
 }
