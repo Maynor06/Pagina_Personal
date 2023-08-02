@@ -57,6 +57,14 @@ header{
   margin: 10px;
   text-align: center;
   font-size: 18px;
+}.redesSociales{
+  margin: 33px 0;
+  text-align: center;
+}.redesSociales img{
+  margin: 0 15px;
+  cursor: pointer;
+  width: 8%;
+  height: 8%;
 }
 .portafolio {
   margin: 25px;
